@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "columns": {
+      "type": "component",
+      "component": "layout.footer-column",
+      "repeatable": true
+    },
+    "socialLinks": {
+      "type": "component",
+      "component": "shared.social-links",
+      "repeatable": true
+    },
+    "bottomLinks": {
+      "type": "component",
+      "component": "shared.links",
+      "repeatable": true
+    },
+    "newsletterTitle": {
+      "type": "string"
+    },
+    "newsletterDescription": {
+      "type": "string"
+    },
+    "newsletterButtonLabel": {
+      "type": "string"
+    },
+    "newsletterPlaceholder": {
+      "type": "string"
+    }
+  }
+}

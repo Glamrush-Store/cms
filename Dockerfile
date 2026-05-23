@@ -12,7 +12,7 @@ COPY package*.json ./
 
 FROM base AS deps
 
-RUN npm ci
+RUN npm install
 
 FROM deps AS build
 
